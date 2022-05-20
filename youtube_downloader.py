@@ -15,10 +15,10 @@ def download_stream(stream):
         os.remove(fn)
 
     print(f'Downloading "{stream.default_filename}" with "{stream}"')
-    stream.download('_tmp', filename=fn)
+    stream.download('tmp', filename=fn)
     print("") # pour forcer la ligne de commande à faire une nouvelle ligne 
 
-    return os.path.join('_tmp', fn)
+    return os.path.join('tmp', fn)
 
 
 def download_video_best_resolution(url, outdir = 'videos'):
@@ -66,7 +66,7 @@ def download_playlist(url, outdir):
 
 if __name__ == "__main__":
     pass
-    # download_video_progressive_best_resolution('https://www.youtube.com/watch?v=Il0S8BoucSA', 'videos')
-    # download_video_best_resolution('https://www.youtube.com/watch?v=Il0S8BoucSA', 'videos')
+    # download_video_progressive_best_resolution('https://www.youtube.com/watch?v=Il0S8BoucSA', '')
+    # download_video_best_resolution('https://www.youtube.com/watch?v=Il0S8BoucSA', '')
     # download_playlist('https://www.youtube.com/watch?v=jYPu61aPHO8&list=PLDIoUOhQQPlU2DoseElwLlKXmV9YSEnKI', 'videos/NRJ HITS 2022')
     # download_playlist('https://www.youtube.com/watch?v=apQ2ojJnpkc&list=PL4i3BECG7Wv9uxH5Gq49VCaq8xVXNZkjp', 'videos/tests')
