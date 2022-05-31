@@ -11,9 +11,6 @@ playlists = [
     # ['https://www.youtube.com/watch?v=jYPu61aPHO8&list=PLDIoUOhQQPlU2DoseElwLlKXmV9YSEnKI', "videos\\NRJ HITS 2022"], # NRJ Hits 2022 - Musique 2022 Nouveauté
 ]
 
-
-
-
 if __name__ == "__main__":
     # pass 
 
