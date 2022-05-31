@@ -46,8 +46,9 @@ dist/**
 *.xlf
 *.nls.*.json
 *.i18n.json
-# venv 
+
+# 
 env
 tmp
-# out put dir
 videos/**
+*.exe
