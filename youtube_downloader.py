@@ -58,9 +58,11 @@ def download_video_best_resolution(url, outdir = 'videos'):
     yt = YouTube(url, on_progress_callback=on_progress)
 
     video_stream = get_video_stream(yt)
-    audio_stream = get_audio_stream(yt)
-    
-    if not video_stream or not audio_stream: 
+    if not video_stream:
+        return
+
+    audio_stream = get_audio_stream(yt)    
+    if not audio_stream: 
         return 
 
     outfile = os.path.join(outdir, video_stream.default_filename)
