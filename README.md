@@ -1,9 +1,11 @@
 # Python-Youtube-Downloader
-Simple youtube downloader with python 
+Simple youtube downloader with python & ffmpeg
 
 used tools : pytube, ffmepg-python, ffmpeg.exe 
 
-use requirements.txt to install required packages
+see requirements.txt to install required packages
+
+you can download a video or a playlist.
 
 # FFMPEG 
 Download : https://ffmpeg.org/download.html
