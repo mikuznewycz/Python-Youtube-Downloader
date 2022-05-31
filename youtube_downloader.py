@@ -87,6 +87,8 @@ def download_video_best_resolution(url, outdir = 'videos'):
         finally:
             os.remove(video_file)
             os.remove(audio_file)
+    else:        
+        print(f'File "{full_outfile}" already exists')
     
     return full_outfile
 
