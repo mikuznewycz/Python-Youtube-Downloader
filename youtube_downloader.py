@@ -36,7 +36,7 @@ def get_video_stream(yt):
                 return video
 
     if not video: # si on trouve pas la résolution dans std_resolutions, on prend la meilleure par défaut
-        return videos.order_by('resolution').desc().first()
+        video = videos.order_éby('resolution').desc().first()
 
     return video
 
