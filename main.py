@@ -10,14 +10,14 @@ urls = (
     # 'https://www.youtube.com/watch?v=aQOanjlnkv0', 
     'https://www.youtube.com/watch?v=P1LXeJamrLk',
     'https://www.youtube.com/watch?v=R6rH4wb0pcQ',
+    'https://www.youtube.com/watch?v=4NRXx6U8ABQ',
 )
 
 playlists = [
     # [url, outdir],
-    ['https://www.youtube.com/watch?v=jYPu61aPHO8&list=PLDIoUOhQQPlU2DoseElwLlKXmV9YSEnKI', "videos\\NRJ HITS 2022"], # NRJ Hits 2022 - Musique 2022 Nouveauté
+    # ['https://www.youtube.com/watch?v=jYPu61aPHO8&list=PLDIoUOhQQPlU2DoseElwLlKXmV9YSEnKI', "videos\\NRJ HITS 2022"], # NRJ Hits 2022 - Musique 2022 Nouveauté
     # ['https://www.youtube.com/watch?v=apQ2ojJnpkc&list=PL4i3BECG7Wv9uxH5Gq49VCaq8xVXNZkjp', 'videos/Lazy Company S01'], 
     # ['https://www.youtube.com/watch?v=q5sRVrUKLS8&list=PLDZoSKnNh5sb2yf-FPNR8PSvwaqThbSi-', 'videos/Lazy Company S02'],
-    ['https://www.youtube.com/playlist?list=PLrSOXFDHBtfGBHAMEg9Om9nF_7R7h5mO7', r'videos\Cours C#'],
 ]
 
 
