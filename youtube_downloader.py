@@ -36,7 +36,7 @@ def get_video_stream(yt):
                 return video
 
     if not video: # si on trouve pas la résolution dans std_resolutions, on prend la meilleure par défaut
-        video = videos.order_éby('resolution').desc().first()
+        video = videos.order_by('resolution').desc().first()
 
     return video
 
@@ -109,3 +109,7 @@ if __name__ == "__main__":
     # download_video_best_resolution('https://www.youtube.com/watch?v=Il0S8BoucSA', '')
     # download_playlist('https://www.youtube.com/watch?v=jYPu61aPHO8&list=PLDIoUOhQQPlU2DoseElwLlKXmV9YSEnKI', 'videos/NRJ HITS 2022')
     # download_playlist('https://www.youtube.com/watch?v=apQ2ojJnpkc&list=PL4i3BECG7Wv9uxH5Gq49VCaq8xVXNZkjp', 'videos/tests')
+
+
+
+    download_playlist('https://www.youtube.com/watch?v=HOb5eeQS2uQ&list=PLf-3YKox7kd4qY1_Rb-3gUWm_4YTpLFMg', 'videos/tests')
